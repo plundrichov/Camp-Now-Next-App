@@ -6,7 +6,7 @@ interface FeatureItemProps {
 	icon: string;
 	description: string;
 }
-
+//test
 const FeatureItem = ({ title, icon, description }: FeatureItemProps) => {
 	return (
 		<li className="flex w-full flex-1 flex-col items-start">
